@@ -1,0 +1,45 @@
+INFO:root:rekhagd@facebook.com
+INFO:root:1234567890
+INFO:root:from logger rekhagd@facebook.com
+INFO:root:from logger 1234567890
+INFO:root:from logger rekhagd@facebook.com
+INFO:root:from logger 1234567890
+INFO:root:from logger rekhagd@facebook.com
+INFO:root:from logger 1234567890
+INFO:root:from logger rekhagd@facebook.com
+INFO:root:from logger 1234567890
+INFO:root:from logger rekhagd@facebook.com
+INFO:root:from logger 1234567890
+INFO:root:from logger rekhagd@facebook.com
+INFO:root:from logger 1234567890
+INFO:root:from logger rekhagd@facebook.com
+INFO:root:from logger 1234567890
+INFO:root:from logger rekhagd@facebook.com
+INFO:root:from logger 1234567890
+INFO:root:from logger rekhagd@facebook.com
+INFO:root:from logger 1234567890
+INFO:root:from logger rekhagd@facebook.com
+INFO:root:from logger 1234567890
+DEBUG:root:from logger rekhagd@facebook.com
+DEBUG:root:from logger 1234567890
+DEBUG:django.db.backends:(0.000) QUERY = u'BEGIN' - PARAMS = (); args=None
+DEBUG:django.db.backends:(0.001) QUERY = u'INSERT INTO "MyServer_registration" ("phoneno", "email") VALUES (%s, %s)' - PARAMS = (1234567890, u'rekhagd@facebook.com'); args=[1234567890, u'rekhagd@facebook.com']
+DEBUG:django.db.backends:(0.000) QUERY = u'SELECT "MyServer_registration"."id", "MyServer_registration"."phoneno", "MyServer_registration"."email" FROM "MyServer_registration" WHERE "MyServer_registration"."email" = %s' - PARAMS = (u'rekhagd@facebook.com',); args=(u'rekhagd@facebook.com',)
+DEBUG:root:from logger rekhagd@facebook.com
+DEBUG:root:from logger 1234567890
+DEBUG:django.db.backends:(0.000) QUERY = u'BEGIN' - PARAMS = (); args=None
+DEBUG:django.db.backends:(0.002) QUERY = u'INSERT INTO "MyServer_registration" ("phoneno", "email") VALUES (%s, %s)' - PARAMS = (1234567890, u'rekhagd@facebook.com'); args=[1234567890, u'rekhagd@facebook.com']
+DEBUG:django.db.backends:(0.000) QUERY = u'SELECT "MyServer_registration"."id", "MyServer_registration"."phoneno", "MyServer_registration"."email" FROM "MyServer_registration" WHERE "MyServer_registration"."email" = %s' - PARAMS = (u'rekhagd@facebook.com',); args=(u'rekhagd@facebook.com',)
+DEBUG:root:from logger rekhagd@facebook.com
+DEBUG:root:from logger 1234567890
+DEBUG:django.db.backends:(0.000) QUERY = u'BEGIN' - PARAMS = (); args=None
+DEBUG:django.db.backends:(0.001) QUERY = u'INSERT INTO "MyServer_registration" ("phoneno", "email") VALUES (%s, %s)' - PARAMS = (1234567890, u'rekhagd@facebook.com'); args=[1234567890, u'rekhagd@facebook.com']
+DEBUG:django.db.backends:(0.000) QUERY = u'SELECT "MyServer_registration"."id", "MyServer_registration"."phoneno", "MyServer_registration"."email" FROM "MyServer_registration" WHERE "MyServer_registration"."email" = %s' - PARAMS = (u'rekhagd@facebook.com',); args=(u'rekhagd@facebook.com',)
+DEBUG:root:from logger in getCount
+DEBUG:django.db.backends:(0.001) QUERY = u'SELECT COUNT(*) FROM "MyServer_registration" WHERE "MyServer_registration"."email" = %s' - PARAMS = (u'rekhagd@facebook.com',); args=(u'rekhagd@facebook.com',)
+DEBUG:root:from logger in getCount
+DEBUG:root:from logger in getCount
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:from logger in getCount
+DEBUG:root:from logger in getCount
+DEBUG:django.db.backends:(0.001) QUERY = u'SELECT COUNT(*) FROM "MyServer_registration" WHERE "MyServer_registration"."email" = %s' - PARAMS = (u'rekhagd@facebook.com',); args=(u'rekhagd@facebook.com',)
